@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    gap: 32px;
+  }
+  .login-page{
+    background-image: url(/public/images/bg-one.jpg);
+  }
+  .animation {
+    width: 535px;
+    height: 460px;
+  }
+  .main h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #F9FBFC;
+  }
+  form {
+    color: white;
+    margin-top: 10px;
+  }
+  form label {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  form input {
+    width: 300px;
+    padding: 8px 16px 8px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 12px;
+    outline: none;
+    color:#113C7A ;
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    transform: translateY(-40%);
+    font-size: 24px ;
+    color: #2b2a2a;
+  }
+  p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:15px ;
+    color:#FF3D9D;
+  }
+  .text input {
+    width: 20px;
+    height: 15px;
+  }
+  .text p {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:#e3ff43 ;
+  }
+  .logBtn {
+    width: 300px;
+    padding: 4px;
+    border-radius: 6px;
+    outline: none;
+    background: #e3ff43;
+    color: #2b2a2a;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    transition: all linear 0.3s;
+  }
+  .logBtn:hover {
+    background: #FF3D9D;
+    color: white;
+  }
